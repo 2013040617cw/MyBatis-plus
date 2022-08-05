@@ -23,19 +23,22 @@ DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `name` varchar(32) NOT NULL,
-  `password` varchar(32) NOT NULL,
+  `pwd` varchar(32) NOT NULL,
   `age` int(3) NOT NULL,
   `tel` varchar(32) NOT NULL,
+  `delete` int(1) DEFAULT '0',
+  `version` int(11) DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=667 DEFAULT CHARSET=utf8;
 
 /*Data for the table `user` */
 
-insert  into `user`(`id`,`name`,`password`,`age`,`tel`) values 
-(2,'大头','jerry',4,'16688886666'),
-(3,'Jock','123456',41,'18812345678'),
-(4,'传智播客','itcast',15,'4006184000'),
-(5,'崔巍','123456',20,'888888');
+insert  into `user`(`id`,`name`,`pwd`,`age`,`tel`,`delete`,`version`) values 
+(2,'崔永红','jerry',4,'16688886666',0,2),
+(3,'Jock','123456',41,'18812345678',0,1),
+(4,'传智播客','itcast',15,'4006184000',0,1),
+(5,'崔巍','123456',20,'888888',0,1),
+(6,'胡斌','123456',21,'333333',0,1);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

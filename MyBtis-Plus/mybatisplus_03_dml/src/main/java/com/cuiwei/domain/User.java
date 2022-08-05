@@ -1,28 +1,22 @@
-package com.cuiwei.demain;
+package com.cuiwei.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import com.baomidou.mybatisplus.annotation.*;
 
-public class User {
-
-    private Long id;
-    private String name;
-    private String password;
-    private Integer age;
-    private String tel;
-
-    public User() {
-    }
-
-    public User(Long id, String name, String password, Integer age, String tel) {
-        this.id = id;
-        this.name = name;
-        this.password = password;
-        this.age = age;
-        this.tel = tel;
-    }
+@TableName("user")
+    public class User {
+    @TableId(type = IdType.AUTO)
+        private Long id;
+        private String name;
+        @TableField(value="pwd",select=false)
+        private String password;
+        private Integer age;
+        private String tel;
+        @TableField(exist=false)
+        private Integer online;
+       /* @TableLogic(value = "0",delval = "1")
+        private Integer delete;*/
+        @Version
+        private  Integer version;
 
     public Long getId() {
         return id;
@@ -64,6 +58,14 @@ public class User {
         this.tel = tel;
     }
 
+    public Integer getOnline() {
+        return online;
+    }
+
+    public void setOnline(Integer online) {
+        this.online = online;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -72,6 +74,7 @@ public class User {
                 ", password='" + password + '\'' +
                 ", age=" + age +
                 ", tel='" + tel + '\'' +
+                ", online=" + online +
                 '}';
     }
 }

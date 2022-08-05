@@ -4,6 +4,9 @@
     <list default="true" id="48c48c63-7c89-4ab0-8554-b477fecfc3f7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/mybatisplus_01_quickstart/target/" />
+    <ignored path="$PROJECT_DIR$/mybatisplus_02_dql/target/" />
+    <ignored path="$PROJECT_DIR$/mybatisplus_03_dml/target/" />
+    <ignored path="$PROJECT_DIR$/mybatisplus_04_generator/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,97 +19,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/Mybatisplus01QuickstartApplication.java">
+        <entry file="file://$PROJECT_DIR$/mybatisplus_04_generator/src/main/java/com/cuiwei/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/com/cuiwei/Mybatisplus01QuickstartApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-              <folding>
-                <element signature="e#949#950#0" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/demain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-                <element signature="e#1021#1022#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1175#1176#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/config/MpConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" selection-start-line="6" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.4.3/mybatis-plus-core-3.4.3.jar!/com/baomidou/mybatisplus/core/metadata/IPage.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -117,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -127,11 +47,30 @@
         <option value="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/dao/impl/UserDaoimpl.java" />
         <option value="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/mybatisplus_01_quickstart/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/demain/User.java" />
-        <option value="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/config/MpConfig.java" />
         <option value="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/Mybatisplus01QuickstartApplication.java" />
-        <option value="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/com/cuiwei/Mybatisplus01QuickstartApplicationTests.java" />
         <option value="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/demain/User.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_02_dql/src/main/java/com/cuiwei/demain/User.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/domain/User.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/config/MpConfig.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/com/cuiwei/Mybatisplus01QuickstartApplicationTests.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_02_dql/src/main/java/com/cuiwei/domain/User.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_02_dql/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus_02_dql/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus_02_dql/src/main/java/com/cuiwei/domain/query/Query.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_02_dql/src/main/java/com/cuiwei/domain/query/UserQuery.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_02_dql/src/main/java/com/cuiwei/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_02_dql/src/test/java/com/cuiwei/Mybatisplus02DqlApplicationTests.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_03_dml/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus_03_dml/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus_03_dml/src/main/java/com/cuiwei/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_02_dql/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mybatisplus_03_dml/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mybatisplus_03_dml/src/test/java/com/cuiwei/Mybatisplus03DmlApplicationTests.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_03_dml/src/main/java/com/cuiwei/domain/User.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_03_dml/src/main/java/com/cuiwei/config/MpConfig.java" />
+        <option value="$PROJECT_DIR$/mybatisplus_04_generator/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus_04_generator/src/main/java/com/cuiwei/Generator.java" />
       </list>
     </option>
   </component>
@@ -187,132 +126,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cuiwei" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cuiwei" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cuiwei" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cuiwei" type="462c0819:PsiDirectoryNode" />
-              <item name="demain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisplus_01_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cuiwei" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBtis-Plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../software/lombok.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatisplus_04_generator" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -326,6 +153,15 @@
     <property name="project.structure.side.proportion" value="0.41494253" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cuiwei" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cuiwei.config" />
+      <recent name="com.cuiwei.demain" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -338,9 +174,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Mybatisplus01QuickstartApplicationTests.testSelectpage">
-    <configuration name="Mybatisplus01QuickstartApplicationTests.TestSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisplus_01_quickstart" />
+  <component name="RunManager" selected="Application.Generator">
+    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cuiwei.Generator" />
+      <module name="mybatisplus_04_generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cuiwei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mybatisplus03DmlApplicationTests.Select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisplus_03_dml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cuiwei.*" />
@@ -348,15 +197,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cuiwei" />
-      <option name="MAIN_CLASS_NAME" value="com.cuiwei.Mybatisplus01QuickstartApplicationTests" />
-      <option name="METHOD_NAME" value="TestSave" />
+      <option name="MAIN_CLASS_NAME" value="com.cuiwei.Mybatisplus03DmlApplicationTests" />
+      <option name="METHOD_NAME" value="Select" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mybatisplus01QuickstartApplicationTests.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisplus_01_quickstart" />
+    <configuration name="Mybatisplus03DmlApplicationTests.leguansuo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisplus_03_dml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cuiwei.*" />
@@ -364,15 +213,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cuiwei" />
-      <option name="MAIN_CLASS_NAME" value="com.cuiwei.Mybatisplus01QuickstartApplicationTests" />
-      <option name="METHOD_NAME" value="testDelete" />
+      <option name="MAIN_CLASS_NAME" value="com.cuiwei.Mybatisplus03DmlApplicationTests" />
+      <option name="METHOD_NAME" value="leguansuo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mybatisplus01QuickstartApplicationTests.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisplus_01_quickstart" />
+    <configuration name="Mybatisplus03DmlApplicationTests.testDeletes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisplus_03_dml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cuiwei.*" />
@@ -380,15 +229,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cuiwei" />
-      <option name="MAIN_CLASS_NAME" value="com.cuiwei.Mybatisplus01QuickstartApplicationTests" />
-      <option name="METHOD_NAME" value="testGetById" />
+      <option name="MAIN_CLASS_NAME" value="com.cuiwei.Mybatisplus03DmlApplicationTests" />
+      <option name="METHOD_NAME" value="testDeletes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mybatisplus01QuickstartApplicationTests.testSelectpage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisplus_01_quickstart" />
+    <configuration name="Mybatisplus03DmlApplicationTests.testSelects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisplus_03_dml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cuiwei.*" />
@@ -396,24 +245,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cuiwei" />
-      <option name="MAIN_CLASS_NAME" value="com.cuiwei.Mybatisplus01QuickstartApplicationTests" />
-      <option name="METHOD_NAME" value="testSelectpage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mybatisplus01QuickstartApplicationTests.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisplus_01_quickstart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cuiwei.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cuiwei" />
-      <option name="MAIN_CLASS_NAME" value="com.cuiwei.Mybatisplus01QuickstartApplicationTests" />
-      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="MAIN_CLASS_NAME" value="com.cuiwei.Mybatisplus03DmlApplicationTests" />
+      <option name="METHOD_NAME" value="testSelects" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -426,13 +259,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Mybatisplus02DqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatisplus_02_dql" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cuiwei.Mybatisplus02DqlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mybatisplus03DmlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatisplus_03_dml" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cuiwei.Mybatisplus03DmlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mybatisplus04GeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatisplus_04_generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cuiwei.Mybatisplus04GeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.testSelectpage" />
-        <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.testGetById" />
-        <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.testUpdate" />
-        <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.testDelete" />
-        <item itemvalue="JUnit.Mybatisplus01QuickstartApplicationTests.TestSave" />
+        <item itemvalue="Application.Generator" />
+        <item itemvalue="JUnit.Mybatisplus03DmlApplicationTests.leguansuo" />
+        <item itemvalue="JUnit.Mybatisplus03DmlApplicationTests.Select" />
+        <item itemvalue="JUnit.Mybatisplus03DmlApplicationTests.testSelects" />
+        <item itemvalue="JUnit.Mybatisplus03DmlApplicationTests.testDeletes" />
       </list>
     </recent_temporary>
   </component>
@@ -450,47 +304,51 @@
       <workItem from="1659583773580" duration="245000" />
       <workItem from="1659597907797" duration="4986000" />
       <workItem from="1659603007152" duration="2477000" />
+      <workItem from="1659663149255" duration="7751000" />
+      <workItem from="1659683983437" duration="3661000" />
+      <workItem from="1659698693244" duration="5052000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Mybatisplus01QuickstartApplicationTests_getALL - 2022.08.04 at 16h 12m 01s.xml">
-      <configuration name="Mybatisplus01QuickstartApplicationTests.getALL" configurationId="JUnit" />
+    <history-entry file="Mybatisplus03DmlApplicationTests_TestSave - 2022.08.05 at 15h 26m 06s.xml">
+      <configuration name="Mybatisplus03DmlApplicationTests.TestSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatisplus01QuickstartApplicationTests_getALL - 2022.08.04 at 16h 12m 41s.xml">
-      <configuration name="Mybatisplus01QuickstartApplicationTests.getALL" configurationId="JUnit" />
+    <history-entry file="Mybatisplus03DmlApplicationTests_testDeletes - 2022.08.05 at 15h 52m 00s.xml">
+      <configuration name="Mybatisplus03DmlApplicationTests.testDeletes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatisplus01QuickstartApplicationTests_getALL - 2022.08.04 at 16h 14m 39s.xml">
-      <configuration name="Mybatisplus01QuickstartApplicationTests.getALL" configurationId="JUnit" />
+    <history-entry file="Mybatisplus03DmlApplicationTests_testSelects - 2022.08.05 at 15h 54m 39s.xml">
+      <configuration name="Mybatisplus03DmlApplicationTests.testSelects" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatisplus01QuickstartApplicationTests_testGetAll - 2022.08.04 at 16h 18m 41s.xml">
-      <configuration name="Mybatisplus01QuickstartApplicationTests.testGetAll" configurationId="JUnit" />
+    <history-entry file="Mybatisplus03DmlApplicationTests_testSelects - 2022.08.05 at 15h 55m 47s.xml">
+      <configuration name="Mybatisplus03DmlApplicationTests.testSelects" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatisplus01QuickstartApplicationTests_testGetAll - 2022.08.04 at 16h 20m 15s.xml">
-      <configuration name="Mybatisplus01QuickstartApplicationTests.testGetAll" configurationId="JUnit" />
+    <history-entry file="Mybatisplus03DmlApplicationTests_Select - 2022.08.05 at 16h 08m 29s.xml">
+      <configuration name="Mybatisplus03DmlApplicationTests.Select" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatisplus01QuickstartApplicationTests_TestSave - 2022.08.04 at 16h 38m 03s.xml">
-      <configuration name="Mybatisplus01QuickstartApplicationTests.TestSave" configurationId="JUnit" />
+    <history-entry file="Mybatisplus03DmlApplicationTests_Select - 2022.08.05 at 16h 11m 54s.xml">
+      <configuration name="Mybatisplus03DmlApplicationTests.Select" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatisplus01QuickstartApplicationTests_testDelete - 2022.08.04 at 16h 40m 26s.xml">
-      <configuration name="Mybatisplus01QuickstartApplicationTests.testDelete" configurationId="JUnit" />
+    <history-entry file="Mybatisplus03DmlApplicationTests_leguansuo - 2022.08.05 at 20h 25m 07s.xml">
+      <configuration name="Mybatisplus03DmlApplicationTests.leguansuo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatisplus01QuickstartApplicationTests_testUpdate - 2022.08.04 at 16h 44m 10s.xml">
-      <configuration name="Mybatisplus01QuickstartApplicationTests.testUpdate" configurationId="JUnit" />
+    <history-entry file="Mybatisplus03DmlApplicationTests_leguansuo - 2022.08.05 at 20h 25m 45s.xml">
+      <configuration name="Mybatisplus03DmlApplicationTests.leguansuo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatisplus01QuickstartApplicationTests_testSelectpage - 2022.08.04 at 17h 27m 04s.xml">
-      <configuration name="Mybatisplus01QuickstartApplicationTests.testSelectpage" configurationId="JUnit" />
+    <history-entry file="Mybatisplus03DmlApplicationTests_leguansuo - 2022.08.05 at 20h 26m 57s.xml">
+      <configuration name="Mybatisplus03DmlApplicationTests.leguansuo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatisplus01QuickstartApplicationTests_testSelectpage - 2022.08.04 at 17h 28m 43s.xml">
-      <configuration name="Mybatisplus01QuickstartApplicationTests.testSelectpage" configurationId="JUnit" />
+    <history-entry file="Mybatisplus03DmlApplicationTests_leguansuo - 2022.08.05 at 20h 29m 15s.xml">
+      <configuration name="Mybatisplus03DmlApplicationTests.leguansuo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7944000" />
+    <option name="totallyTimeSpent" value="24408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
+      <window_info id="Web" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24934895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -498,9 +356,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17146777" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.041152265" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,6 +385,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/mybatisplus_03_dml/src/test/java/com/cuiwei/Mybatisplus03DmlApplicationTests.java</url>
+          <line>90</line>
+          <properties class="com.cuiwei.Mybatisplus03DmlApplicationTests" method="leguansuo">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/dao/impl/UserDaoimpl.java" />
     <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/pom.xml">
@@ -544,66 +417,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/com/cuiwei/Mybatisplus01QuickstartApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-          <folding>
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/demain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/config/MpConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" selection-start-line="6" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="420">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -612,8 +434,195 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/Mybatisplus01QuickstartApplication.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1372">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_02_dql/src/main/java/com/cuiwei/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/main/java/com/cuiwei/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_02_dql/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.12/lib/src.zip!/java.sql/java/sql/Wrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_02_dql/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_02_dql/src/main/java/com/cuiwei/domain/query/UserQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_02_dql/src/main/java/com/cuiwei/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_02_dql/src/main/java/com/cuiwei/config/MpConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_02_dql/src/main/java/com/cuiwei/Mybatisplus02DqlApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_03_dml/src/main/resources/logback.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatisplus_02_dql/src/test/java/com/cuiwei/Mybatisplus02DqlApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3136">
+          <caret line="151" column="5" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_01_quickstart/src/test/java/com/cuiwei/Mybatisplus01QuickstartApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_02_dql/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_03_dml/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.4.3/mybatis-plus-annotation-3.4.3.jar!/com/baomidou/mybatisplus/annotation/TableLogic.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_03_dml/src/main/java/com/cuiwei/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_03_dml/src/main/java/com/cuiwei/config/MpConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_03_dml/src/main/java/com/cuiwei/Mybatisplus03DmlApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_03_dml/src/test/java/com/cuiwei/Mybatisplus03DmlApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1997">
+          <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_03_dml/src/main/java/com/cuiwei/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_04_generator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="69" column="9" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_03_dml/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus_04_generator/src/main/java/com/cuiwei/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,12 +678,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mybatisplus_01_quickstart</last-edited>
+          <last-edited>mybatisplus_04_generator</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.41494253" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

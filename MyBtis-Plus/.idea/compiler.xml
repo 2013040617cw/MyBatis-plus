@@ -7,15 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatisplus_01_quickstart" />
+        <module name="mybatisplus_02_dql" />
+        <module name="mybatisplus_03_dml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mybatisplus_01_quickstart" target="11" />
+      <module name="mybatisplus_01_quickstart" target="17" />
+      <module name="mybatisplus_02_dql" target="11" />
+      <module name="mybatisplus_03_dml" target="11" />
+      <module name="mybatisplus_04_generator" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mybatisplus_01_quickstart" options="-parameters" />
+      <module name="mybatisplus_02_dql" options="-parameters" />
+      <module name="mybatisplus_03_dml" options="-parameters" />
+      <module name="mybatisplus_04_generator" options="-parameters" />
     </option>
   </component>
 </project>

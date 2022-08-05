@@ -5,7 +5,6 @@ import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerIntercept
 import org.springframework.context.annotation.Bean;
 
 public class MpConfig {
-
     @Bean
     public MybatisPlusInterceptor mybatisPlusInterceptor(){
         //1 创建MybatisPlusInterceptor拦截器对象
